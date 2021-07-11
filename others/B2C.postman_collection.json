@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "d92fc82b-aed0-423b-ab03-67302f7b4afe",
+		"name": "B2C",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "SignAppleLogin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"appleTeamId\": \"7YWJ73ULMC\",\r\n    \"appleKeyId\": \"DA3KJ7J29N\",\r\n    \"appleServiceId\": \"com.prioenergy.app.dev.client\",\r\n    \"p8key\": \"MIGTAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBHkwdwIBAQQgLk1hzHkk1ELBXy0v4U6Bb4vLOAMcJGQgLjpkgcEjPP6gCgYIKoZIzj0DAQehRANCAATPSW1TWpiCNg2ZiSaHOJ2zwNhF8Vi2Z2+pZteHy6w07VH5oRP+Icr9d2U0pS6NBnEHswI7xjvv6nz+aP0iGCZ5\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7071/api/SignAppleLogin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"SignAppleLogin"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
